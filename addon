@@ -1,0 +1,13 @@
+""""""""""""""""""""self setting"""""""""""""""""""""
+set background=dark
+inoremap jk <ESC>
+
+"let mapleader ,
+let mapleader = ","
+
+map <Leader>q :e ~/buffer<cr>
+
+set nu
+
+inoremap nl <ESC>A###################<ESC>
+set relativenumber
