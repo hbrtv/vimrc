@@ -1,0 +1,4 @@
+#https://vim.fandom.com/wiki/Making_Parenthesis_And_Brackets_Handling_Easier
+:inoremap <C-j> <Esc>/[)}"'\]>]<CR>:nohl<CR>a
+#使用快捷键Ctrl + j跳出【】 （） {} “” ‘’
+
